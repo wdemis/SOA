@@ -1,21 +1,21 @@
 #!/bin/bash
 
 #############################################################################################################################################
-# Project			:	SOA																													#
-# Description		:	Shell script for starting SOA application in local terminal with multiple processes. This script is					#
-#						used in conjunction with an AppleScript (initiateShell.scpt) to create a terminal for each process					#
-#						in which each process has a unique properties file and a unique debug port. The properties file for each			#
-#						instance is generated from the root application.properties file in which the server port is incremented by 1.		#
-#						Additionally the AppleScript will stack the terminal windows across the bottom of the screen for easy viewing		#
-#						of all processes at once.																							#
-#																																			#
-# Input Params		:	Number of Instances	- Required - number of unique SOA instances to spin up											#
-#																																			#
-# Usage				:	./runMany.sh 3	<---- Spins up three instances																		#
-#																																			#
-# Created by		:	Willy Demis																											#
-# Created date		:	2023-06-30																											#
-# Version			:	1.0																													#
+# Project			  :	SOA																													                                                              #
+# Description		:	Shell script for starting SOA application in local terminal with multiple processes. This script is					              #
+#						      used in conjunction with an AppleScript (initiateShell.scpt) to create a terminal for each process					              #
+#						      in which each process has a unique properties file and a unique debug port. The properties file for each			            #
+#						      instance is generated from the root application.properties file in which the server port is incremented by 1.		          #
+#						      Additionally the AppleScript will stack the terminal windows across the bottom of the screen for easy viewing		          #
+#						      of all processes at once.																							                                                    #
+#																																			                                                                      #
+# Input Params	:	Number of Instances	- Required - number of unique SOA instances to spin up											                          #
+#																																			                                                                      #
+# Usage				  :	./runMany.sh 3	<---- Spins up three instances																		                                        #
+#																																			                                                                      #
+# Created by		:	Willy Demis																											                                                          #
+# Created date	:	2023-06-30																											                                                          #
+# Version			  :	1.0																													                                                              #
 #############################################################################################################################################
 
 numInstances=$1
